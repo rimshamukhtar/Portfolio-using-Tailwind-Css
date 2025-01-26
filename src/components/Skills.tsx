@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaJs } from 'react-icons/fa'
 
 const Skills = () => {
   return (
-    <section className='text-white'>
+    <section id="skills" className='text-white'>
       <div className='container mx-auto flex flex-col items-center justify-center h-screen gap-6 font-serif text-cyan-200'>
         
         <h1 className='text-center font-bold text-xl border-2 border-cyan-600 bg-cyan-700 hover:bg-cyan-800 text-white p-2 rounded-lg w-36 shadow-lg transition-all duration-300'>
