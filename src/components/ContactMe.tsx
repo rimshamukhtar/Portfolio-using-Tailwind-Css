@@ -1,6 +1,5 @@
-
-import React from 'react'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import React from 'react';
+import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
 const ContactMe = () => {
   return (
@@ -12,11 +11,14 @@ const ContactMe = () => {
         </p>
         
         <div className='flex justify-center gap-4'>
-          <a href="https://https://github.com/rimshamukhtar" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/rimshamukhtar" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-white text-3xl hover:text-cyan-400 transition duration-300" />
           </a>
           <a href="https://www.linkedin.com/in/rimsha-mukhtar-ahmed-6b88632b5" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-white text-3xl hover:text-cyan-400 transition duration-300" />
+          </a>
+          <a href="mailto:rimshamukhtar@example.com" target="_blank" rel="noopener noreferrer">
+            <FaEnvelope className="text-white text-3xl hover:text-cyan-400 transition duration-300" />
           </a>
         </div>
       </div>
@@ -40,7 +42,8 @@ const ContactMe = () => {
         <button className='text-center font-serif text-gray-300 bg-gradient-to-br from-cyan-600 via-cyan-700 border-2 w-28 sm:w-32 m-4 rounded-lg font-bold p-1 border-cyan-800'>Submit</button>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ContactMe
+export default ContactMe;
+
