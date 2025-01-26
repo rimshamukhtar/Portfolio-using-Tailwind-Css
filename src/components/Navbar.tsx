@@ -1,4 +1,4 @@
-'use client'; 
+'use client';  // Add this line at the very top
 
 import React, { useState } from 'react';
 import Link from 'next/link';
@@ -73,5 +73,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
