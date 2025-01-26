@@ -5,14 +5,14 @@ import Link from "next/link";
 const About = () => {
   return (
     <section id="about" className="flex justify-center items-center h-auto bg-gray-900 px-4 py-16 sm:py-20 lg:py-24">
-      <div className="w-full max-w-lg text-center text-zinc-500 font-serif p-4">
+      <div className="w-full max-w-lg text-center mt-4 text-zinc-500 font-serif p-4">
         <h2 className="mb-4">
           <span className="font-bold border-2 border-cyan-800 bg-cyan-600 hover:bg-cyan-700 text-white p-2 rounded-lg">
             About me
           </span>
         </h2>
         <p className="text-zinc-400">
-          Hello! I'm Rimsha Mukhtar, a dedicated and creative Web Developer with
+          Hello! I'm <span className="font-bold" >Rimsha Mukhtar</span>, a dedicated and creative Web Developer with
           a flair for building interactive and visually engaging web
           applications. My journey in web development began with a strong
           foundation in HTML, CSS, JavaScript, React.js, and TypeScript, and
