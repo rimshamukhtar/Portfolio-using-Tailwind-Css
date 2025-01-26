@@ -14,7 +14,7 @@ const Skills = () => {
           What I Can Do
         </h2>
 
-        <div className='flex flex-col sm:flex-row sm:gap-6 items-center justify-center'>
+        <div className='flex flex-col items-center gap-6'> {/* Removed sm:flex-row and kept flex-col */}
           <div className='flex items-center justify-center w-80 h-14 text-center font-bold text-xl p-2 rounded-full shadow-lg border-2 border-cyan-800 bg-cyan-50 text-cyan-900 transform hover:scale-110 transition-transform duration-300 ease-in-out hover:shadow-cyan-600'>
             <FaHtml5 className="text-3xl mr-3 text-red-600 animate-pulse" /> HTML
           </div>
