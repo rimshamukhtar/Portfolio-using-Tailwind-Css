@@ -31,19 +31,19 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <ul className="hidden lg:flex space-x-16 px-12 font-bold">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="#home">Home</Link>
           </li>
           <li>
-            <Link href="/About">About Me</Link>
+            <Link href="#about">About Me</Link>
           </li>
           <li>
-            <Link href="/Skills">Skills</Link>
+            <Link href="#skills">Skills</Link>
           </li>
           <li>
-            <Link href="/Projects">Projects</Link>
+            <Link href="#projects">Projects</Link>
           </li>
           <li>
-            <Link href="/ContactUs">Contact Me</Link>
+            <Link href="#contactme">Contact Me</Link>
           </li>
         </ul>
       </div>
@@ -52,19 +52,19 @@ const Navbar = () => {
       {isOpen && (
         <ul className="flex flex-col items-center bg-cyan-800 lg:hidden font-bold text-lg space-y-4 py-4">
           <li>
-            <Link href="/">Home</Link>
+            <Link href="#home">Home</Link>
           </li>
           <li>
-            <Link href="/About">About Me</Link>
+            <Link href="#about">About Me</Link>
           </li>
           <li>
-            <Link href="/Skills">Skills</Link>
+            <Link href="#skills">Skills</Link>
           </li>
           <li>
-            <Link href="/Projects">Projects</Link>
+            <Link href="#projects">Projects</Link>
           </li>
           <li>
-            <Link href="/ContactUs">Contact Me</Link>
+            <Link href="#contactme">Contact Me</Link>
           </li>
         </ul>
       )}
