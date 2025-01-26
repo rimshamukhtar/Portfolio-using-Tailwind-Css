@@ -10,7 +10,7 @@ const About = () => {
             About me
           </span>
         </h2>
-        <p className="p-4 text-zinc-400">
+        <p className="text-zinc-400">
           Hello! I'm Rimsha Mukhtar, a dedicated and creative Web Developer with
           a flair for building interactive and visually engaging web
           applications. My journey in web development began with a strong
