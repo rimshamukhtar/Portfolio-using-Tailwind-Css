@@ -1,11 +1,11 @@
-import React from 'react'
-import Image from 'next/image'
-import ATM from "../../public/ATM pic.jpg"
-import calculator from "../../public/calculator.jpg"
-import currencyconverter from "../../public/currency converter.webp"
-import numberguessing from "../../public/number guessing.jpg"
-import todolist from "../../public/to-do-list.jpg"
-import wordcounter from "../../public/word counter.png"
+import React from 'react';
+import Image from 'next/image';
+import ATM from "../../public/ATM pic.jpg";
+import calculator from "../../public/calculator.jpg";
+import currencyconverter from "../../public/currency converter.webp";
+import numberguessing from "../../public/number guessing.jpg";
+import todolist from "../../public/to-do-list.jpg";
+import wordcounter from "../../public/word counter.png";
 
 const Projects = () => {
   return (
@@ -22,26 +22,32 @@ const Projects = () => {
           image: ATM,
           title: "ATM Machine",
           description: "An interactive ATM simulation project.",
+          link: "#", // You can replace this with the actual project link
         }, {
           image: calculator,
           title: "Simple Calculator",
           description: "A basic calculator for arithmetic operations.",
+          link: "#",
         }, {
           image: currencyconverter,
           title: "Currency Converter",
           description: "Easily convert currencies in real-time.",
+          link: "#",
         }, {
           image: numberguessing,
           title: "Number Guessing Game",
           description: "A fun game to guess numbers within range.",
+          link: "#",
         }, {
           image: todolist,
           title: "To-do List",
           description: "Keep track of daily tasks effectively.",
+          link: "#",
         }, {
           image: wordcounter,
           title: "Word Counter",
           description: "Count words and characters in real-time.",
+          link: "#",
         }].map((project, index) => (
           <div
             key={index}
@@ -66,12 +72,22 @@ const Projects = () => {
               <p className="font-serif text-center text-sm text-gray-300">
                 {project.description}
               </p>
+
+              {/* View Project Button */}
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 text-gray-300 bg-gradient-to-br from-cyan-600 via-cyan-700 border-2 w-32 text-center mx-auto rounded-lg font-bold p-2 border-cyan-800 hover:bg-cyan-700"
+              >
+                View Project
+              </a>
             </div>
           </div>
         ))}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
