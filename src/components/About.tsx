@@ -18,7 +18,7 @@ const About = () => {
       Hello! I'm Rimsha Mukhtar, a dedicated and creative Web Developer with a flair for building interactive and visually engaging web applications. My journey in web development began with a strong foundation in HTML, CSS, JavaScript, React.js and TypeScript, and I'm continually expanding my skill set to bring innovative solutions to life. Currently, I'm diving into Next.js to deepen my knowledge and explore advanced front-end possibilities.
         </p>
       <button className="text-gray-300 bg-gradient-to-br from-cyan-600 via-cyan-700 border-2 w-32 mt-4 rounded-lg font-bold p-1 border-cyan-800">
-       <Link href ="www.linkedin.com/in/rimsha-mukhtar-ahmed-6b88632b5"> View my Profile</Link>
+       <Link href ="https://www.linkedin.com/in/rimsha-mukhtar-ahmed-6b88632b5"> View my Profile</Link>
       </button>
     </div>
    </section>
