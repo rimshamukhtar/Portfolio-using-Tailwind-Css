@@ -17,7 +17,7 @@ const ContactMe = () => {
           <a href="https://www.linkedin.com/in/rimsha-mukhtar-ahmed-6b88632b5" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-white text-3xl hover:text-cyan-400 transition duration-300" />
           </a>
-          <a href="mailto:rimshamukhtar@example.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:rimshamukhtar747@gmail.com" target="_blank" rel="noopener noreferrer">
             <FaEnvelope className="text-white text-3xl hover:text-cyan-400 transition duration-300" />
           </a>
         </div>
