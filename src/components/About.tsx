@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <section className="flex justify-center items-center bg-gray-900 px-4 py-8 sm:py-12">
+    <section className="flex justify-center items-center h-screen bg-gray-900 px-4 py-8 sm:py-12">
       <div className="w-full max-w-lg text-center text-zinc-500 font-serif p-4">
         <h2 className="mb-4">
           <span className="font-bold border-2 border-cyan-800 bg-cyan-600 hover:bg-cyan-700 text-white p-2 rounded-lg">
