@@ -9,7 +9,7 @@ import wordcounter from "../../public/word counter.png";
 
 const Projects = () => {
   return (
-    <div className="container mx-auto text-white flex flex-col items-center justify-center gap-6 px-4">
+    <div id="projects" className="container mx-auto text-white flex flex-col items-center justify-center gap-6 px-4">
       {/* Title */}
       <h1 className="font-extrabold text-center text-2xl font-serif border-2 border-cyan-800 bg-cyan-600 hover:bg-cyan-700 text-white p-2 rounded-lg w-48 sm:w-64">
         My Projects
@@ -22,32 +22,32 @@ const Projects = () => {
           image: ATM,
           title: "ATM Machine",
           description: "An interactive ATM simulation project.",
-          link: "#", // You can replace this with the actual project link
+          link: "https://github.com/rimshamukhtar/Colorfull-ATM_Machine", 
         }, {
           image: calculator,
           title: "Simple Calculator",
           description: "A basic calculator for arithmetic operations.",
-          link: "#",
+          link: "https://github.com/rimshamukhtar/simple-calculator",
         }, {
           image: currencyconverter,
           title: "Currency Converter",
           description: "Easily convert currencies in real-time.",
-          link: "#",
+          link: "https://github.com/rimshamukhtar/simple-calculator",
         }, {
           image: numberguessing,
           title: "Number Guessing Game",
           description: "A fun game to guess numbers within range.",
-          link: "#",
+          link: "https://github.com/rimshamukhtar/cli_number_gussing",
         }, {
           image: todolist,
           title: "To-do List",
           description: "Keep track of daily tasks effectively.",
-          link: "#",
+          link: "https://github.com/rimshamukhtar/Colorfull-Todo-list-Application",
         }, {
           image: wordcounter,
           title: "Word Counter",
           description: "Count words and characters in real-time.",
-          link: "#",
+          link: "https://github.com/rimshamukhtar/Typescript-Word_Counter",
         }].map((project, index) => (
           <div
             key={index}
