@@ -1,10 +1,9 @@
 import Image from "next/image";
-import bannerimage from "../../public/rimsha.jpeg";
 
 export default function HeroSection() {
   return (
-    <section className="animate-fade-in px-4 sm:px-8 lg:px-16">
-      <div className="flex flex-col lg:flex-row items-center h-screen lg:h-screen font-serif">
+    <section className="animate-fade-in px-4 sm:px-8 lg:px-16 mb-16 lg:mb-24">
+      <div className="flex flex-col lg:flex-row items-center h-auto lg:h-screen font-serif">
         <div className="flex-1 animate-slide-in-left text-center lg:text-left mb-8 lg:mb-0">
           <h1 className="text-cyan-600 font-extrabold font-serif text-4xl sm:text-5xl lg:text-6xl mb-4">
             <span>Hello, I'm Rimsha</span>
