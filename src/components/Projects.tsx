@@ -6,6 +6,9 @@ import currencyconverter from "../../public/currency converter.webp";
 import numberguessing from "../../public/number guessing.jpg";
 import todolist from "../../public/to-do-list.jpg";
 import wordcounter from "../../public/word counter.png";
+import blogImage from "../../public/blog.jpg"; // Replace with the actual blog image
+import furnitureImage from "../../public/furniture.jpg"; // Replace with the actual furniture image
+import drivehubImage from "../../public/drivehub.jpg"; // Replace with the actual drivehub image
 
 const Projects = () => {
   return (
@@ -17,12 +20,11 @@ const Projects = () => {
 
       {/* Project Grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {/* Project Card */}
         {[{
           image: ATM,
           title: "ATM Machine",
           description: "An interactive ATM simulation project.",
-          link: "https://github.com/rimshamukhtar/Colorfull-ATM_Machine", 
+          link: "https://github.com/rimshamukhtar/Colorfull-ATM_Machine",
         }, {
           image: calculator,
           title: "Simple Calculator",
@@ -48,6 +50,21 @@ const Projects = () => {
           title: "Word Counter",
           description: "Count words and characters in real-time.",
           link: "https://github.com/rimshamukhtar/Typescript-Word_Counter",
+        }, {
+          image: blogImage,
+          title: "AI in Future Blog",
+          description: "A dynamic blog website discussing AI advancements.",
+          link: "https://github.com/rimshamukhtar/ai-in-future-blog",
+        }, {
+          image: furnitureImage,
+          title: "Furniture Website",
+          description: "An elegant website showcasing furniture collections.",
+          link: "https://github.com/rimshamukhtar/furniture-website",
+        }, {
+          image: drivehubImage,
+          title: "DriveHub Website",
+          description: "A car marketplace featuring a user-friendly design.",
+          link: "https://github.com/rimshamukhtar/drivehub-website",
         }].map((project, index) => (
           <div
             key={index}
