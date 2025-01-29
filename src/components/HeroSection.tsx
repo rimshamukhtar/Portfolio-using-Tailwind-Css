@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function HeroSection() {
   return (
@@ -20,7 +21,7 @@ export default function HeroSection() {
               Hire me
             </button>
             <button className="text-gray-300 px-6 py-3 rounded-full bg-gradient-to-br from-cyan-600 via-cyan-700 font-bold hover:scale-105 transform transition duration-300">
-              Download CV
+           <Link href="https://hackathon-milestones1-2-nu.vercel.app/" target="_blank"> Download CV</Link>  
             </button>
           </div>
         </div>
